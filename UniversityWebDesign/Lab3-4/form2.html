@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+
+<head>
+    <title>form2</title>
+</head>
+
+<body>
+    <form method = "post" action = "sendmail.php">
+        <label for = "marca">- Ce sampon folositi in mod regulat?<br></label>
+            <input type = radio id = "Pantene" name = "marca" value = "Pantene">
+            <label for = "Pantene">Pantene<br></label>
+            <input type = radio id = "Elseve" name = "marca" value = "Elseve">
+            <label for = "Elseve">Elseve<br></label>
+            <input type = radio id = "Dove" name = "marca" value = "Dove">
+            <label for = "Dove">Dove<br></label>
+            <input type = radio id = "Londa" name = "marca" value = "Londa">
+            <label for = "Londa">Londa<br></label>
+            <input type = radio id = "Wella" name = "marca" value = "Wella">
+            <label for = "Wella">Wella<br></label>
+        <label for = "determinare">- Ce va determina sa cumparati acest sampon?<br></label>
+            <input type = checkbox id = "reclama" name = "determinare" value = "reclama"> reclama <br>
+            <input type = checkbox id = "pret" name = "determinare" value = "pret"> pretul<br>
+            <input type = checkbox id = "ambalaj" name = "determinare" value = "ambalaj"> ambalajul <br>
+            <input type = checkbox id = "marca" name = "determinare" value = "marca"> marca <br>
+            <input type = checkbox id = "disponibilitate" name = "determinare" value = "disponibilitate"> disponibilitatea produsului <br>
+        <label for = "apreciere">- Ce apreciați cel mai mult la șamponul pe care il cumpărați?<br></label>
+            <input type = radio id = "miros" value = "miros"> mirosul <br>
+            <input type = radio id = "calitate" value = "calitate"> calitatea<br>
+            <input type = radio id = "timp efect" value = "timp efect"> timpul de efect <br>
+        <label for = "frecventa">- Cât de frecvent folosiți șamponul? <br></label>
+        <select id = "frecventa" name = "frecventa">
+            <option>o dată pe săptămână</option>
+            <option>de două ori pe săptămână</option>
+            <option>de trei ori pe săptămână</option>
+            <option>o dată la două săptămâni</option>
+        </select>
+    </form>
+</body>
